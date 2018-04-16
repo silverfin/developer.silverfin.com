@@ -5,5 +5,12 @@
 layout: home
 ---
 
+Hello world
 
-yooooo
+```ruby
+class Silverfin
+  def trigger(arg)
+    # Do something
+  end
+end
+```
