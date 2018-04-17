@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{%- include head.html -%}
+  <body class="sf-body sf-border-box">
 
-  {%- include head.html -%}
-
-  <body>
-
-    {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
+    <div class="sf-grid sf-grid-fluid">
+      <div class="sf-row">
+        <div class="sf-col sf-xs-12 sf-sm-4">
+          {%- include menu.html -%}
+        </div>
+        <div class="sf-col sf-xs-12 sf-sm-8">
+          {{ content }}
+        </div>
       </div>
-    </main>
+    </div>
 
     {%- include footer.html -%}
 
