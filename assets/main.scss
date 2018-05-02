@@ -1,162 +1,51 @@
 ---
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-body{
-  font-color: #000;
+h3 {
+  color: #62CAE0;
+  border-top: 1px solid #DDD;
+  padding-top: 15px;
+  margin-top: 0;
 }
 
-em {
-   color: #AAA;
+p:not(:last-child) {
+    margin-bottom: 15px;
 }
 
-p {
-  text-align: justify;
-}
-
-a:hover {
+a {
+  color: #62CAE0;
   text-decoration: none;
 }
 
-h1, h2, h3 {
-  margin-bottom: 15px;
-  text-transform: uppercase;
-  font-family: 'Arial', sans-serif;
-  font-weight: bold;
+a:hover {
+  color: #AAA;
+  text-decoration: none;
 }
 
-h1 {
-  font-size: 26px;
+.topic {
+  margin-bottom: 30px;
 }
 
-h2 {
-  font-size: 20px;
+.topic:not(:last-child) {
+  padding-bottom: 30px;
 }
 
-h3 {
-  font-size: 18px;
-  color: #0c6a99;
-}
-
-hr {
+.sf-code {
   margin: 0;
 }
 
-.sidebar {
-  background: #012E44;
-  color: #FFF;
-  padding-right: 0px;
-  padding-left: 0px;
-  padding-bottom: 30px;
-
-  .title {
-    padding: 15px 30px;
-    font-weight: bold;
-    margin-top: 15px;
-  }
-
-  .head {
-    font-size: 12px;
-    font-weight: bold;
-    text-align: center;
-    padding: 15px;
-
-    a {
-      color: #FFF;
-    }
-
-    a:hover {
-      text-decoration: none;
-    }
-
-    img {
-      max-width: 100%;
-    }
-  }
+.comment {
+  color: #CCC;
 }
 
-.content {
-  padding: 30px;
+code.highlighter-rouge {
+  background: rgba(241, 243, 245, 0.8);
 }
 
-ul {
-  display: block;
-  list-style-type: none;
-  -webkit-margin-before: 0em;
-  -webkit-margin-after: 0em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-  -webkit-padding-start: 0px;
-  margin: 0px;
-  padding: 0px;
-
-  .menu li {
-    display: block;
-    padding: 10px 45px;
-
-    .active {
-      display: block;
-      background: #FFF;
-      color: #043D58;
-      font-weight: bold;
-
-      &:hover {
-        display: block;
-        background: #FFF;
-        color: #0c6a99;
-        font-weight: bold;
-      }
-    }
-  }
-
-  .menu a li  {
-    color: rgba(255,255,255,0.9);
-    text-decoration: none;
-  }
-
-  .menu li:hover {
-    display: block;
-    text-decoration: none;
-    background: #0c6a99;
-  }
-
-  .menu a li:hover {
-    text-decoration: none;
-    color: rgba(255,255,255,0.9);
-  }
-
+.sf-code-preview {
+    border-bottom: 0px;
 }
 
-.box{
-  margin-bottom: 30px;
-
-  .header {
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border: 1px solid #012E44;
-    background: #012E44;
-    color: #FFF;
-    padding: 10px;
-  }
-
-  .content {
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border: 1px solid #012E44;
-    color: #333;
-    padding: 10px;
-    background: #FFF;
-  }
-=======
-=======
->>>>>>> cdfa17c02adbfdceace528edda712282e80501f6
-@import "syntax_highlighting";
-
-body {
-  // background-color: red;
-<<<<<<< HEAD
->>>>>>> cdfa17c02adbfdceace528edda712282e80501f6
-=======
->>>>>>> cdfa17c02adbfdceace528edda712282e80501f6
+.sf-modal-content img {
+    max-width: 100%;
 }
