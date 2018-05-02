@@ -12,6 +12,14 @@ p:not(:last-child) {
     margin-bottom: 15px;
 }
 
+p:not(:first-child) {
+    margin-top: 15px;
+}
+
+p {
+    max-width: 100%;
+}
+
 a {
   color: #62CAE0;
   text-decoration: none;
@@ -48,4 +56,8 @@ code.highlighter-rouge {
 
 .sf-modal-content img {
     max-width: 100%;
+}
+
+img {
+  max-width: 100%;
 }
